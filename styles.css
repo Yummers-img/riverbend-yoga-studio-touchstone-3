@@ -12,3 +12,7 @@ label{font-weight:700}input,select,textarea{width:100%;padding:.7rem;margin-top:
 fieldset{border:1px solid var(--sage);border-radius:.5rem;padding:1rem}fieldset fieldset input{width:auto}
 footer{text-align:center;padding:1rem;background:var(--charcoal);color:white}audio{width:100%}
 @media (min-width:760px){header{padding:1.6rem 2rem}.card-grid{flex-direction:row;align-items:stretch}main{margin:2rem auto}section{padding:1.6rem}}
+.feature-result{margin-top:1rem;padding:1rem;border-left:5px solid var(--clay);background:var(--cream);border-radius:.4rem}
+.error-message{display:block;margin-top:.25rem;font-weight:700;color:#8B1E1E}
+[aria-invalid="true"]{border:2px solid #8B1E1E}
+.form-status{font-weight:700;color:var(--sage)}
